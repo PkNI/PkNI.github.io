@@ -1,0 +1,111 @@
+/*-------------------------LAYOUT DA PÁGINA----------------------------------*/
+#topo {
+    position: fixed;
+    top: 2px;
+    height: 120px;
+    background-color: red;
+    width: 98.75%;
+    border-radius: 20px 20px 0px 0px;
+    
+    
+    
+}
+#meio {
+    position: fixed;
+    top: 134px;
+    background-color: white;
+    width: 98.75%;
+    margin-bottom: 2px;
+    max-height: 594px;
+    overflow: auto;
+}
+#bot {
+    position: absolute;
+    bottom: 2px;
+    height: 150px;
+    background-color: red;
+    width: 98.75%;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+/*---------------------------CABEÇALHO--------------------------------*/
+
+.titulo{
+    position: relative;
+    left: 28%;
+    font-size: 40px;
+}
+
+.menu{
+    position: absolute;
+    right: 5px;
+    bottom: -10px;
+    
+    
+       
+}
+.menu ul{
+    list-style: none;
+    
+}
+
+.menu li{
+    margin: -2px;
+    background-color: purple;
+    padding: 2px;
+    position: relative;
+    display: inline-block;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;   
+}
+
+.menu li:hover{
+    background-color: black;
+    color: blanchedalmond;
+    opacity: 0.9;
+    box-shadow: 10px 10px 10px 1px;
+}
+
+.menu li:hover #submenu{
+    visibility: visible;
+}
+
+#inicio {
+    border-radius: 20px 0px 0px 20px;
+}
+
+#contato{
+    border-radius: 0px 20px 20px 0px;
+}
+
+#submenu {
+    position: relative;
+    top: 24px;
+    left: -30px;
+    visibility: hidden;
+    position: absolute;
+    display: grid;
+}
+
+#submenu li {
+    box-sizing: inherit;
+    text-align: justify;
+    height: auto;
+    width: 89px;
+}
+a {
+    color: inherit;
+}
+
+a:link { 
+    text-decoration:none; 
+    color: black;
+} 
+
+/*---------------------------CORPO--------------------------------*/
+
+
+
+/*---------------------------RODAPÉ--------------------------------*/
