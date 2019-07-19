@@ -2,6 +2,7 @@
 <html>
 <head>
     <link href="CSS/Style.css" rel="stylesheet" type="text/css">
+    <script src="JS/Script.js" type="text/javascript"></script>
     <title>Patrick Moreira da Silva</title>
 </head>
 
@@ -10,7 +11,7 @@
         <label class="titulo">PATRICK MOREIRA DA SILVA</label>
         <div class="menu">
             <ul>
-                <li id="inicio">INICIO</li>
+                <a href="" id="ainicio" ><li href="" onclick="GoTo('index', this)"id="inicio">INICIO</li></a>
                 <li>PORTIFÓLIO
                     <ul id=submenu>
                         <li>PROJETO 1</li>
@@ -21,19 +22,17 @@
                         <li>PROJETO 1</li>
                     </ul>
                 </li>
-                <a href="" ><li>CURRICULO</li></a>
-                <a href="" ><li>SOBRE</li></a>
-                <a href=""><li id="contato">CONTATO</li></a>
+                <a href="" id="acurriculo" ><li onclick="GoTo('curriculo', this)">CURRICULO</li></a>
+                <li>SOBRE</li>
+                <li id="contato">CONTATO</li>
             </ul>
         </div>
     </div>
-    
+    <div id="meio">
+        <iframe src="" id="Tela"></iframe>
+    </div>
+       
         
-        <iframe id="meio" src="" frameboard="0">
-
-
-        </iframe>
-    
     
     <footer id="bot">
         

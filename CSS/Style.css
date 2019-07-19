@@ -12,13 +12,14 @@
     
 }
 #meio {
-    height: 654px;
-    position: fixed;
-    top: 134px;
+    position: absolute;
+    height: 70%;
+    top: 128px;
     background-color: blue;
     width: 98.75%;
     margin-bottom: 2px;
-    max-height: 654px;
+    min-height: 70%;
+    max-height: 70%;
     overflow: auto;
 }
 
@@ -80,6 +81,8 @@ iframe{
     color: blanchedalmond;
     opacity: 0.9;
     box-shadow: 10px 10px 10px 1px;
+    -webkit-transform: scale(1.10);
+    z-index: 20;
 }
 
 .menu li:hover #submenu{
